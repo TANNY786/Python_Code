@@ -1,3 +1,9 @@
-list = [1,2,3,4,5,6,7,2,4,5]
+list = [1,2,3,4,5,6,7,1]
 st = set(list)
-print(st)
+def cod():
+    if len(list)!=len(st):
+        print("Duplicate")
+    else:
+        print("No Duplicate")
+cod()
+
