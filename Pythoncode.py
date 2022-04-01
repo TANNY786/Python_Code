@@ -1,5 +1,7 @@
-def hello_world():
-    print("hello world")
-# function calling
-hello_world()
-
+def sum():
+    a = 10
+    b = 20
+    c = a+b
+    return c
+# calling sum() function in print statement
+print("The sum is:",sum())
